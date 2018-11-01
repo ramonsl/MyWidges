@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
             public void onStartTrackingTouch(SeekBar seekBar) {
                 edtToast.setText(valor.toString());
 
+
+
+                //teste
                 Toast.makeText(MainActivity.this,valor.toString(),Toast.LENGTH_LONG).show();
             }
 
